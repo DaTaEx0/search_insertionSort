@@ -1,6 +1,6 @@
 
 // Damian Acosta 
-//*********To DO************
+
 
 #include <iostream>
 #include <string>
@@ -9,8 +9,6 @@
 using namespace std;
 using namespace chrono;
 
-// Implement linear search
-// Return true if x exist in the array A with size n, and return false otherwise
 
 bool linear_search(int x, int* A, int n)
 {
@@ -24,11 +22,6 @@ bool linear_search(int x, int* A, int n)
     }
     return linear_search(x, A + 1, n - 1);
 }
-
-// Implement binary search iteratively
-// Return true if x exist in the array A with size n, and return false otherwise
-// Hint: don't forget you have while loop :D
-// HINT: define variables r (right) and l (left) like what we have in the slides
 
 bool binary_search(int x, int* A, int n)
 {
